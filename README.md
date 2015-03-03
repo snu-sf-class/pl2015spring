@@ -6,18 +6,39 @@
         * Send emails for personal matters only. Use the issue tracker.
         * DO NOT send emails to jee...@sf.snu.ac.kr.
         * Give me your name and your student ID in emails.
-    + Office Hour: [TBA](http://en.wikipedia.org/wiki/To_be_announced)
+    + Office Hour: Please email me to make an appointment.
+
+## Announcements ##
+
+- 
 
 ## Homeworks ##
 
 | Due        	| Description 	 	 	 	 	 	 	 	 	 	 	 	 	 	| Notes 	|
 |------------	|---------------------------------------------------------------	|-------	|
 | 2015/03/09 	| Give me your information [here](http://goo.gl/forms/YUjIxNo3LD).	|       	|
-| 2015/03/09 	| Read articles on [GitHub](https://help.github.com/).          	|       	|
+| 2015/03/09 	| Read articles on [GitHub](https://help.github.com/). Especially, read Bootcamp, Setup, Using Git, User Accounts, and SSH sections.	|       	|
 
 ## Must Read ##
 
-- *READ CAREFULLY* this article.
+- *READ CAREFULLY* this section.
+
+### Grading ###
+
+- Homework: 40%
+    + Coq problems in the [software foundations material](http://www.cis.upenn.edu/~bcpierce/sf/current/index.html). Read carefully the next subsections.
+- Exams: 50% (mid-term 25% and final 25%)
+    + You will solve Coq problems at the lab during the exam.
+- Attendance: 10%
+    + -2% per absence. -1% per too-late-coming. From 2015/03/09. *IMPORTANT: -11% makes an F*.
+    + You will be assigned a seat that you will use in this course (2015/03/05).
+    + TA will take two pictures for every class, at the middle and at the end. Then TA will grade attendance automatically.
+
+### Questions ###
+
+- In class: if you speak Korean, ask in Korean. Otherwise, ask in English.
+- In the [GitHub repository issue tracker](https://github.com/snu-sf/pl2015/issues): ask in English.
+- Send email for *personal matters only*.
 
 ### Software ###
 
@@ -28,7 +49,7 @@
         * Install [opam](http://opam.ocaml.org/doc/Install.html), and make sure you can use OCaml 4.01.0.
         * Download [tarball](https://coq.inria.fr/distrib/V8.4pl5/files/coq-8.4pl5.tar.gz) file.
         * Extract the tarball, `./configure`, `make`, and then `make install`.
-        * Test by `coqc -v` in the command line.
+        * Test by `coqc -v` in the command line. Check your `PATH` variable if you get an error.
     + For OS X, I recommend you to download [those with CoqIDE bundle](https://coq.inria.fr/distrib/V8.4pl5/files/coqide-8.4pl5.dmg). And you may have to properly set path variable. add the following in `~/.bashrc`: `export PATH=/Applications/CoqIdE_8.4pl5.app/Resources/bin/:$PATH`. (May not work in your environment; be cautious before blindly adding the line.)
 - Use software foundations material in this repository (as explained in the Homeworks section below).
 
@@ -37,11 +58,7 @@
 - Honor code: do not copy other's source code, including other students' and resources around the Web. Especially, do not consult with public repositories on software foundations.
     + *DO NOT CHEAT*. If you copy other's source code, you will get F. Note that we have a good automatic clone detector.
 - Make sure your source code is compiled without error before submission. TA will compile by `make clean; make` in Linux environment. This should not fail.
-- On submission (TODO)
-
-### Questions ###
-
-- Ask question in the [GitHub repository issue tracker](https://github.com/snu-sf/pl2015/issues).
+- TBA (submission, grading, ...)
 
 ## Misc. ##
 
