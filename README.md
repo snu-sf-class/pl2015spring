@@ -5,7 +5,7 @@
     + Email address: [pl2015@sf.snu.ac.kr](mailto:pl2015@sf.snu.ac.kr).
         * Send emails for personal matters only. Use the issue tracker.
         * DO NOT send emails to jee...@sf.snu.ac.kr.
-        * Give me your name and your student ID in emails.
+        * In the case you send TA an email, specify your name and your student ID.
     + Office Hour: Please email me to make an appointment.
 
 ## Announcements ##
@@ -16,8 +16,9 @@
 
 | Due        	| Description 	 	 	 	 	 	 	 	 	 	 	 	 	 	| Notes 	|
 |------------	|---------------------------------------------------------------	|-------	|
-| 2015/03/09 	| Register at GitHub, and give me your information [here](http://goo.gl/forms/YUjIxNo3LD).	|       	|
+| 2015/03/09 	| Register at [GitHub](https://github.com), and give me your information [here](http://goo.gl/forms/YUjIxNo3LD).	|       	|
 | 2015/03/09 	| Read articles on [GitHub](https://help.github.com/). Especially, read Bootcamp, Setup, Using Git, User Accounts, and SSH sections.	|       	|
+| 2015/03/09 	| Be ready to do homework and submit it.	|       	|
 
 ## Must Read ##
 
