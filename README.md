@@ -10,13 +10,13 @@
 
 ## Announcements ##
 
-- 
+- TBA
 
 ## Homeworks ##
 
 | Due        	| Description 	 	 	 	 	 	 	 	 	 	 	 	 	 	| Notes 	|
 |------------	|---------------------------------------------------------------	|-------	|
-| 2015/03/09 	| Give me your information [here](http://goo.gl/forms/YUjIxNo3LD).	|       	|
+| 2015/03/09 	| Register at GitHub, and give me your information [here](http://goo.gl/forms/YUjIxNo3LD).	|       	|
 | 2015/03/09 	| Read articles on [GitHub](https://help.github.com/). Especially, read Bootcamp, Setup, Using Git, User Accounts, and SSH sections.	|       	|
 
 ## Must Read ##
