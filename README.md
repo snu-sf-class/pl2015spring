@@ -10,7 +10,7 @@
 
 ## Announcements ##
 
-- TBA
+- We will have a lab session at 2015/03/04 (Thu). Please come to Software Lab, 3rd floor, bldg 302.
 
 ## Homeworks ##
 
