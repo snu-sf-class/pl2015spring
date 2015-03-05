@@ -35,4 +35,4 @@ This is a step-by-step instruction to submit your homework.
 
 - If you don't know about Git, start reading articles on [GitHub](https://help.github.com/). Especially, read Bootcamp, Setup, Using Git, User Accounts, and SSH sections.
 
-- For those who are interested, we are going to the [GitHub's guide to classrom usage](https://education.github.com/guide) and the [sandboxing](https://education.github.com/guide/sandboxing) method.
+- For those who are interested, we are going to use the [GitHub's guide to classrom usage](https://education.github.com/guide) and the [sandboxing](https://education.github.com/guide/sandboxing) method.
