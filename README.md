@@ -57,10 +57,7 @@
 
 ### Homeworks ###
 
-- Honor code: do not copy other's source code, including other students' and resources around the Web. Especially, do not consult with public repositories on software foundations.
-    + *DO NOT CHEAT*. If you copy other's source code, you will get F. Note that we have a good automatic clone detector.
-- Make sure your source code is compiled without error before submission. TA will compile by `make clean; make` in Linux environment. This should not fail.
-- TBA (submission, grading, ...)
+See [Homework.md](Homework.md) for more details.
 
 ## Misc. ##
 
