@@ -1,14 +1,20 @@
 #!/usr/bin/env bash
 
+## Usage: USERID=jeehoonkang WORKSPACE=~ ./copy-repository.sh
 
 ## Configurations ##
 
 # You have to write down your own GitHub user id.
-USERID=jeehoonkang
+if [ -z $USERID ] ; then
+  echo "You have to specify USERID."
+  exit 1
+fi
 
 # You have to write down the directory you want to place the repository.
-WORKSPACE=~/Works
-
+if [ -z $WORKSPACE ] ; then
+  echo "You have to specify WORKSPACE."
+  exit 1
+fi
 
 ## Execution ##
 
