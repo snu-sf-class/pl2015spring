@@ -42,6 +42,9 @@
 - In class: if you speak Korean, ask in Korean. Otherwise, ask in English.
 - In the [GitHub repository issue tracker](https://github.com/snu-sf/pl2015/issues): ask in English.
 - Send email for *personal matters only*.
+- If you want to post a piece of source code, please DO NOT upload an image of it. Because it is hard to reconstruct texts from images.
+    + Instead, use GitHub Markdown's ["fenced code blocks" feature](https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks).
+    + Or, you can always use [GitHub Gist](https://gist.github.com/).
 
 ### Coq ###
 
