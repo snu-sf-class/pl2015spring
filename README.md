@@ -11,7 +11,6 @@
 ## Announcements ##
 
 - We will have an (optional) lab session on Git at 2015/03/10 (Wed) 20:30-21:30. Please come to Software Lab, 3rd floor, bldg 302.
-    + Date and place are subject to change. Please stay tuned!
 - We will have a lab session at 2015/03/04 (Thu). Please come to Software Lab, 3rd floor, bldg 302.
 
 ## Homeworks ##
