@@ -5,12 +5,14 @@
 - Do not copy other's source code, including other students' and resources around the Web. Especially, do not consult with public repositories on software foundations.
 - *DO NOT CHEAT*. If you copy other's source code, you will get F. Note that we have a good automatic clone detector.
 
-## Coq ##
-
-- Make sure your source code is compiled without error before submission. TA will compile by `make clean; make` in Linux environment. This should not fail.
-- TBA for details
-
 ## Submission ##
+
+- Homework will be issued every Thursday night (Day 0).
+- The due is the next Thursday 14:00 (Day 7).
+- You can still submit until the next to the next Thursday 14:00 (Day 14), but you will get only 70% of the score.
+- Make sure your source code is compiled without error before submission. TA will compile by `make clean; make` in Linux environment. This should not fail.
+
+## Git ##
 
 ### How to begin? ###
 
