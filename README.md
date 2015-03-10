@@ -36,9 +36,8 @@
 - Exams: 50% (mid-term 25% and final 25%)
     + You will solve Coq problems at the lab during the exam.
 - Attendance: 10%
-    + -2% per absence. -1% per too-late-coming. From 2015/03/09. *IMPORTANT: -11% makes an F*.
-    + You will be assigned a seat that you will use in this course (2015/03/05).
-    + TA will take two pictures for every class, at the middle and at the end. Then TA will grade attendance automatically.
+    + -2% per absence. We will take a photo around 5:30 from 2015/03/09. *IMPORTANT: 6 absences makes an F*.
+    + You are assigned a seat that you will use in this course. See: https://docs.google.com/spreadsheets/d/1LzOLx22lF3N31D9RDS20Ec8ub_Rq6IA3utD8CNMk9CQ/edit#gid=0
 
 ### Questions ###
 
