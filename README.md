@@ -10,6 +10,7 @@
 
 ## Announcements ##
 
+- Now you can use Coq 8.4pl5 in martini.snucse.org and midori.snucse.org! Run `coqide`. Thanks to @kcm1700.
 - [Document on assignments](Homework.md) is updated! Assignment 1 will be issued Thursday night (2015/03/12).
 - Check if your student IDs are correct [here](https://docs.google.com/spreadsheets/d/1LzOLx22lF3N31D9RDS20Ec8ub_Rq6IA3utD8CNMk9CQ/edit#gid=0).
 - We will have an (optional) lab session on Git at 2015/03/10 (Wed) 20:30-21:30. Please come to Software Lab, 3rd floor, bldg 302.
