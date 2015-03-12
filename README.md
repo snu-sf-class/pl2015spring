@@ -10,7 +10,8 @@
 
 ## Announcements ##
 
-- Check the [GitHub repository status](https://github.com/snu-sf/pl2015/issues/11).
+- Homework 
+- Check the [GitHub repository status](https://github.com/snu-sf/pl2015/issues/14).
 - Now you can use Coq 8.4pl5 in martini.snucse.org and midori.snucse.org! Run `coqide`. Thanks to [@kcm1700](https://github.com/kcm1700)!
 - [Document on assignments](Homework.md) is updated! Assignment 1 will be issued Thursday night (2015/03/12).
 - Check if your student IDs are correct [here](https://docs.google.com/spreadsheets/d/1LzOLx22lF3N31D9RDS20Ec8ub_Rq6IA3utD8CNMk9CQ/edit#gid=0).
@@ -21,7 +22,7 @@
 
 | Due        	| Description 	 	 	 	 	 	 	 	 	 	 	 	 	 	| Notes 	|
 |------------	|---------------------------------------------------------------	|-------	|
-| 2015/03/19 	| Assignment 1 (planned)	|       	|
+| 2015/03/19 14:00 	| [Assignment 01](sf/Assignment01.v) 	|       	|
 | 2015/03/12 	| Check if your student IDs are correct [here](https://docs.google.com/spreadsheets/d/1LzOLx22lF3N31D9RDS20Ec8ub_Rq6IA3utD8CNMk9CQ/edit#gid=0).	|       	|
 | 2015/03/09 	| Be ready to do homework and submit it.	|       	|
 | 2015/03/09 	| Read articles on [GitHub](https://help.github.com/). Especially, read Bootcamp, Setup, Using Git, User Accounts, and SSH sections.	|       	|
