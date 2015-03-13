@@ -38,6 +38,10 @@ This is a step-by-step instruction to submit your homework.
     + Don't forget to push. I do not believe commit logs, and even though a commit log says it is created before the due date, I will not accept the commit if it is not pushed.
 - If anyting wrong, first learn Git [here](http://try.github.com/).
 
+### Troubleshooting ###
+
+- In Windows, you can encounter an error `Protocol https not supported or disabled in libcurl` while copying `snu-sf/pl2015.git`. This error is caused by referring `libcurl.dll` in `C:\Windows\SysWOW64`. In that case, you should replace `libcurl.dll` in `C:\Windows\SysWOW64` with `libcurl.dll` in `C:\Users[$USERNAME]\AppData\Local\GitHub`.
+
 ### References ###
 
 - If you don't know about Git, start reading articles on [GitHub](https://help.github.com/). Especially, read Bootcamp, Setup, Using Git, User Accounts, and SSH sections.
