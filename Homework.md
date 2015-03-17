@@ -36,7 +36,7 @@ This is a step-by-step instruction to submit your homework.
 - Push the change to your private repository's `master` branch by `git push`.
 - Make sure that your GitHub repository's `master` branch contains your contribution. I will pull your `master` branch at the assignment due.
     + Don't forget to push. I do not believe commit logs, and even though a commit log says it is created before the due date, I will not accept the commit if it is not pushed.
-- If anyting wrong, first learn Git [here](http://try.github.com/).
+- If anything wrong, first learn Git [here](http://try.github.com/).
 
 ### Troubleshooting ###
 
