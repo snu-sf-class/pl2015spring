@@ -5,7 +5,7 @@
 
 Definition admit {T: Type} : T.  Admitted.
 
-(** **** Exercise: 1 star (andb3) *)
+(** **** Problem #1 : 1 star (andb3) *)
 (** Do the same for the [andb3] function below. This function should
     return [true] when all of its inputs are [true], and [false]
     otherwise. *)
@@ -25,7 +25,7 @@ Example test_andb34:                 (andb3 true true false) = false.
 
 
 
-(** **** Exercise: 1 star (factorial) *)
+(** **** Problem #2: 1 star (factorial) *)
 (** Recall the standard factorial function:
 <<
     factorial(0)  =  1 
@@ -51,14 +51,9 @@ Example test_factorial2:          (factorial 5) = 10 * 12.
 
 
 
-(** **** Exercise: 2 stars (blt_nat) *)
+(** **** Problem #3: 2 stars (blt_nat) *)
 (** The [blt_nat] function tests [nat]ural numbers for [l]ess-[t]han,
-    yielding a [b]oolean.  Instead of making up a new [Fixpoint] for
-    this one, define it in terms of a previously defined function.  
-    
-    Note: If you have trouble with the [simpl] tactic, try using
-    [compute], which is like [simpl] on steroids.  However, there is a
-    simple, elegant solution for which [simpl] suffices. *)
+    yielding a [b]oolean.  Use [Fixpoint] to define it. *)
 
 Definition blt_nat (n m : nat) : bool :=
   (* FILL IN HERE *) admit.
