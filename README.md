@@ -6,7 +6,7 @@
         * Send emails for personal matters only. Use the issue tracker.
         * DO NOT send emails to jee...@sf.snu.ac.kr.
         * In the case you send TA an email, specify your name and your student ID.
-    + Office Hour: Please email me to make an appointment.
+    + Office Hour: At bldg 301 rm 554-1. Please email me to make an appointment.
 
 ## Announcements ##
 
