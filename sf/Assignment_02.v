@@ -125,7 +125,7 @@ Proof.
 
 
 
-(** **** Problem #7 : 4 stars (mult_comm) *)
+(** **** Problem #7 : 4 stars (plus_swap) *)
 (** Use [assert] to help prove this theorem if necessary.  
     You shouldn't need to use induction. *)
 
