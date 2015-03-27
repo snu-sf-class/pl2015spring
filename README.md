@@ -22,6 +22,7 @@
 
 | Due        	| Description 	 	 	 	 	 	 	 	 	 	 	 	 	 	| Notes 	|
 |------------	|---------------------------------------------------------------	|-------	|
+| 2015/04/02 14:00 	| [Assignment 03](sf/Assignment03.v) ([status](https://github.com/snu-sf/pl2015/issues/42)) 	|       	|
 | 2015/03/26 14:00 	| [Assignment 02](sf/Assignment_02.v) ([status](https://github.com/snu-sf/pl2015/issues/30)) 	|       	|
 | 2015/03/19 14:00 	| [Assignment 01](sf/Assignment01.v) ([status](https://github.com/snu-sf/pl2015/issues/17)) 	|       	|
 | 2015/03/12 	| Check if your student IDs are correct [here](https://docs.google.com/spreadsheets/d/1LzOLx22lF3N31D9RDS20Ec8ub_Rq6IA3utD8CNMk9CQ/edit#gid=0).	|       	|
