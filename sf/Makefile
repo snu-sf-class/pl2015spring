@@ -106,7 +106,8 @@ VFILES:=Symbols.v\
   Postscript.v\
   Assignment01.v\
   Assignment_02.v\
-  Assignment03.v
+  Assignment03.v\
+  Assignment04.v
 
 -include $(addsuffix .d,$(VFILES))
 .SECONDARY: $(addsuffix .d,$(VFILES))
