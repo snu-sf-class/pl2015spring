@@ -107,7 +107,47 @@ VFILES:=Symbols.v\
   Assignment01.v\
   Assignment_02.v\
   Assignment03.v\
-  Assignment04.v
+  Assignment04.v\
+  Assignment05_00.v\
+  Assignment05_01.v\
+  Assignment05_02.v\
+  Assignment05_03.v\
+  Assignment05_04.v\
+  Assignment05_05.v\
+  Assignment05_06.v\
+  Assignment05_07.v\
+  Assignment05_08.v\
+  Assignment05_09.v\
+  Assignment05_10.v\
+  Assignment05_11.v\
+  Assignment05_12.v\
+  Assignment05_13.v\
+  Assignment05_14.v\
+  Assignment05_15.v\
+  Assignment05_16.v\
+  Assignment05_17.v\
+  Assignment05_18.v\
+  Assignment05_19.v\
+  Assignment05_20.v\
+  Assignment05_21.v\
+  Assignment05_22.v\
+  Assignment05_23.v\
+  Assignment05_24.v\
+  Assignment05_25.v\
+  Assignment05_26.v\
+  Assignment05_27.v\
+  Assignment05_28.v\
+  Assignment05_29.v\
+  Assignment05_30.v\
+  Assignment05_31.v\
+  Assignment05_32.v\
+  Assignment05_33.v\
+  Assignment05_34.v\
+  Assignment05_35.v\
+  Assignment05_36.v\
+  Assignment05_37.v\
+  Assignment05_38.v\
+  Assignment05_39.v
 
 -include $(addsuffix .d,$(VFILES))
 .SECONDARY: $(addsuffix .d,$(VFILES))
