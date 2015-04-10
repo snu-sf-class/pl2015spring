@@ -12,6 +12,8 @@ Require Export MoreCoq.
    - You are NOT allowed to use the following tactics.
 
      [tauto], [intuition], [firstorder], [omega].
+
+   - Do NOT add any additional `Require Import/Export`.
 *)
 
 Inductive and (P Q : Prop) : Prop :=

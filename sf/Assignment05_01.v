@@ -1,4 +1,4 @@
-Require Import Assignment05_00.
+Require Export Assignment05_00.
 
 (* problem #01: 10 points *)
 
