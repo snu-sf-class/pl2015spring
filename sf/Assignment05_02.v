@@ -14,7 +14,12 @@ Theorem and_assoc : forall P Q R : Prop,
 Proof.
   intros P Q R H.
   destruct H as [HP [HQ HR]].
-(* FILL IN HERE *) admit.
+(* FILL IN HERE *)
+  split.
+  - split.
+    + apply HP.
+    + apply HQ.
+  - apply HR.
 Qed.
 (** [] *)
 

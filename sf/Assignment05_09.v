@@ -8,7 +8,12 @@ Require Export Assignment05_08.
 Theorem contrapositive : forall P Q : Prop,
   (P -> Q) -> (~Q -> ~P).
 Proof.
-  (* FILL IN HERE *) admit.
+  (* FILL IN HERE *)
+  intros.
+  intros HP.
+  apply H0.
+  apply H.
+  apply HP.
 Qed.
 (** [] *)
 

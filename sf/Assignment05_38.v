@@ -6,6 +6,13 @@ Theorem ble_nat_true_trans : forall n m o,
   ble_nat n m = true -> ble_nat m o = true -> ble_nat n o = true.                               
 Proof.
   (* Hint: This theorem can be easily proved without using [induction]. *)
-  (* FILL IN HERE *) admit.
+  (* FILL IN HERE *)
+  intros.
+  apply le_ble_nat.
+  apply le_trans with (n:=m).
+  - apply ble_nat_true.
+    apply H.
+  - apply ble_nat_true.
+    apply H0.
 Qed.
 
