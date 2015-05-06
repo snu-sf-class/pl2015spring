@@ -22,6 +22,7 @@
 
 | Due        	| Description 	 	 	 	 	 	 	 	 	 	 	 	 	 	| Notes 	|
 |------------	|---------------------------------------------------------------	|-------	|
+| 2015/05/12 14:00 	| [Assignment 07](sf/Assignment07_00.v) ([status](https://github.com/snu-sf/pl2015/issues/79)) 	|       	|
 | 2015/04/23 14:00 	| [Assignment 06](sf/Assignment06_00.v) ([status](https://github.com/snu-sf/pl2015/issues/69)) 	|       	|
 | 2015/04/16 14:00 	| [Assignment 05](sf/Assignment05_00.v) ([status](https://github.com/snu-sf/pl2015/issues/60)) 	|       	|
 | 2015/04/09 14:00 	| [Assignment 04](sf/Assignment04.v) ([status](https://github.com/snu-sf/pl2015/issues/53)) 	|       	|

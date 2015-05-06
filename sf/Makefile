@@ -156,7 +156,18 @@ VFILES:=Symbols.v\
   Assignment06_05.v\
   Assignment06_06.v\
   Assignment06_07.v\
-  Assignment06_08.v
+  Assignment06_08.v\
+  Assignment07_00.v\
+  Assignment07_01.v\
+  Assignment07_02.v\
+  Assignment07_03.v\
+  Assignment07_04.v\
+  Assignment07_05.v\
+  Assignment07_06.v\
+  Assignment07_07.v\
+  Assignment07_08.v\
+  Assignment07_09.v\
+  Assignment07_10.v
 
 -include $(addsuffix .d,$(VFILES))
 .SECONDARY: $(addsuffix .d,$(VFILES))
