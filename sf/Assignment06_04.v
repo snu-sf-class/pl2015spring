@@ -6,7 +6,12 @@ Require Export Assignment06_03.
 Theorem override_shadow' : forall (X:Type) x1 x2 k1 k2 (f : nat->X),
   (override' (override' f k1 x2) k1 x1) k2 = (override' f k1 x1) k2.
 Proof.
-  (* FILL IN HERE *) admit.
+  (* FILL IN HERE *)
+  intros.
+  unfold override'.
+  destruct (eq_nat_dec k1 k2).
+  - reflexivity.
+  - reflexivity.
 Qed.
 (** [] *)
 

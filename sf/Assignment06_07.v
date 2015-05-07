@@ -16,6 +16,10 @@ Require Export Assignment06_06.
 
 Inductive nostutter:  list nat -> Prop :=
  (* FILL IN HERE *)
+| ns_nil : nostutter []
+| ns_single : forall n, nostutter [n]
+| ns_cons : forall n m l, n <> m -> nostutter (m::l) ->
+              nostutter (n::m::l)
 .
 
 (** Make sure each of these tests succeeds, but you are free
@@ -31,32 +35,31 @@ Inductive nostutter:  list nat -> Prop :=
     tactics.  *)
 
 Example test_nostutter_1:      nostutter [3;1;4;1;5;6].
-(* FILL IN HERE *) Admitted.
-(* 
+(* FILL IN HERE *)
   Proof. repeat constructor; apply beq_nat_false; auto. Qed.
-*)
+
 
 Example test_nostutter_2:  nostutter [].
-(* FILL IN HERE *) Admitted.
-(* 
+(* FILL IN HERE *)
+
   Proof. repeat constructor; apply beq_nat_false; auto. Qed.
-*)
+
 
 Example test_nostutter_3:  nostutter [5].
-(* FILL IN HERE *) Admitted.
-(* 
+(* FILL IN HERE *)
+
   Proof. repeat constructor; apply beq_nat_false; auto. Qed.
-*)
+
 
 Example test_nostutter_4:      not (nostutter [3;1;1;4]).
-(* FILL IN HERE *) Admitted.
-(* 
+(* FILL IN HERE *)
+
   Proof. intro.
   repeat match goal with 
     h: nostutter _ |- _ => inversion h; clear h; subst 
   end.
   contradiction H1; auto. Qed.
-*)
+
 (** [] *)
 
 

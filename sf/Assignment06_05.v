@@ -9,6 +9,8 @@ Require Export Assignment06_04.
 
 Inductive all {X : Type} (P : X -> Prop) : list X -> Prop :=
   (* FILL IN HERE *)
+| all_nil : all P []
+| all_cons : forall x l (px: P x) (pl: all P l), all P (x::l)
 .
 
 (** Recall the function [forallb], from the exercise
@@ -30,7 +32,30 @@ Fixpoint forallb {X : Type} (test : X -> bool) (l : list X) : bool :=
 Theorem forallb_correct: forall X (P: X -> bool) l,
   forallb P l = true <-> all (fun x => P x = true) l.
 Proof.
-  (* FILL IN HERE *) admit.
+  (* FILL IN HERE *)
+  intros.
+  split.
+  - induction l as [| h t IH].
+    + intros allb.
+      apply all_nil.
+    + simpl.
+      intros allb.   
+      apply all_cons.
+      * apply andb_true_elim1 in allb.
+        apply allb.
+      * apply IH.
+        apply andb_true_elim2 in allb.
+        apply allb.
+  - induction l as [| h t IH].
+    + intros allp.
+      simpl. reflexivity.
+    + intros allp.
+      simpl.
+      inversion allp.
+      rewrite -> px.
+      apply IH in pl.
+      rewrite -> pl.
+      simpl. reflexivity.
 Qed.
 
 (** [] *)
