@@ -17,6 +17,7 @@
 - Check if your student IDs are correct [here](https://docs.google.com/spreadsheets/d/1LzOLx22lF3N31D9RDS20Ec8ub_Rq6IA3utD8CNMk9CQ/edit#gid=0).
 - We will have an (optional) lab session on Git at 2015/03/10 (Wed) 20:30-21:30. Please come to Software Lab, 3rd floor, bldg 302.
 - We will have a lab session at 2015/03/04 (Thu). Please come to Software Lab, 3rd floor, bldg 302.
+- We will change your seats at 2015/05/19 (Tue).
 
 ## Homeworks ##
 
