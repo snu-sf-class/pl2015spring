@@ -613,17 +613,17 @@ Fixpoint s_execute (st : state) (stack : list nat)
     | SPlus => 
       match stack with
       | na :: nb :: stack' => s_execute st (nb+na :: stack') prog'
-      | _ => []
+      | _ => s_execute st stack prog'
       end
     | SMinus => 
       match stack with
       | na :: nb :: stack' => s_execute st (nb-na :: stack') prog'
-      | _ => []
+      | _ => s_execute st stack prog'
       end
     | SMult =>
       match stack with
       | na :: nb :: stack' => s_execute st (nb*na :: stack') prog'
-      | _ => []
+      | _ => s_execute st stack prog'
       end
     end
   end.
