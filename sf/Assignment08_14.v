@@ -100,7 +100,17 @@ Proof.
          become constants after folding *)
       simpl. destruct (beq_nat n n0); reflexivity.
   Case "BLe". 
-    exact FILL_IN_HERE.
+    rename a into a1. rename a0 into a2. simpl.
+    remember (fold_constants_aexp a1) as a1' eqn:Heqa1'.
+    remember (fold_constants_aexp a2) as a2' eqn:Heqa2'.
+    replace (aeval st a1) with (aeval st a1') by
+       (subst a1'; rewrite <- fold_constants_aexp_sound; reflexivity).
+    replace (aeval st a2) with (aeval st a2') by
+       (subst a2'; rewrite <- fold_constants_aexp_sound; reflexivity).
+    destruct a1'; destruct a2'; try reflexivity.
+      (* The only interesting case is when both a1 and a2 
+         become constants after folding *)
+      simpl. destruct (ble_nat n n0); reflexivity.
   Case "BNot". 
     simpl. remember (fold_constants_bexp b) as b' eqn:Heqb'. 
     rewrite IHb.

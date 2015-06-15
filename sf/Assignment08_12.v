@@ -7,7 +7,12 @@ Theorem CSeq_congruence : forall c1 c1' c2 c2',
   cequiv c1 c1' -> cequiv c2 c2' ->
   cequiv (c1;;c2) (c1';;c2').
 Proof. 
-  exact FILL_IN_HERE.
+  intros.
+  split; intros Has.
+  - inversion Has. subst.
+    apply E_Seq with st'0; [apply H | apply H0]; auto.
+  - inversion Has. subst.
+    apply E_Seq with st'0; [apply H | apply H0]; auto.
 Qed.
 
 (*-- Check --*)
