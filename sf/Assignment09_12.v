@@ -9,7 +9,20 @@ Require Export Assignment09_11.
 Theorem hoare_asgn_weakest : forall Q X a,
   is_wp (Q [X |-> a]) (X ::= a) Q.
 Proof.
-  exact FILL_IN_HERE.
+  intros.
+  unfold is_wp.
+  split.
+  - intros st1 st2 cev pre.
+    unfold assn_sub in pre.
+    inversion cev. subst.
+    auto.
+  - intros.
+    intros st Hst.
+    unfold assn_sub.
+    eapply H.
+    + constructor.
+      reflexivity.
+    + auto.
 Qed.
 
 (*-- Check --*)

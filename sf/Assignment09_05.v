@@ -13,7 +13,28 @@ Theorem if_minus_plus :
   FI
   {{fun st => st Y = st X + st Z}}. 
 Proof.
-  exact FILL_IN_HERE.
+  eapply hoare_consequence_pre.
+  { eapply hoare_if; eapply hoare_asgn. }
+  intros st Hst.
+  destruct (beval st (BLe (AId X) (AId Y))) eqn:Hbev; split; intros.
+  - unfold assn_sub.
+    rewrite update_neq.
+    rewrite update_neq.
+    rewrite update_eq.
+    simpl in Hbev. simpl.
+    apply le_plus_minus.
+    apply ble_nat_true. auto.
+    intros C; inversion C.
+    intros C; inversion C.
+  - inversion H.
+  - inversion H.
+  - unfold assn_sub.
+    rewrite update_eq.
+    rewrite update_neq.
+    rewrite update_neq.
+    simpl. reflexivity.
+    intros C. inversion C.
+    intros C. inversion C.
 Qed.
 
 (*-- Check --*)
