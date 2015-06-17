@@ -17,7 +17,12 @@ Theorem cimp_strong_progress : forall c st,
   c = SKIP \/ 
   exists c' st', c / st ==>c c' / st'.
 Proof.
-  exact FILL_IN_HERE.
+  intros; induction c; eauto; right;
+  try (destruct (aexp_strong_progress st a) as [[n Hn]|[a' Ha']];
+       subst; eexists; eauto);
+  try (destruct (bexp_strong_progress st b) as [[Hbt | Hbf]|[b' Hb']]);
+  destruct IHc1 as [Hsk1 | [c1' [st1' Hc1']]];
+  destruct IHc2 as [Hsk2 | [c2' [st2' Hc2']]]; subst; eexists; eauto.
 Qed.
 
 (*-- Check --*)

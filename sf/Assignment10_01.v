@@ -20,8 +20,12 @@ Example test_step_2 :
         (P 
           (C 2) 
           (C (0 + 3))).
-Proof. 
-  exact FILL_IN_HERE.
+Proof.
+  apply ST_Plus2.
+  { constructor. }
+  apply ST_Plus2.
+  { constructor. }
+  apply ST_PlusConstConst.
 Qed.
 
 (*-- Check --*)

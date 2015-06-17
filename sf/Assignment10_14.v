@@ -18,7 +18,10 @@ Theorem aexp_strong_progress: forall st a,
   (exists n, a = ANum n) \/
   exists a', a / st ==>a a'.
 Proof.
-  exact FILL_IN_HERE.
+  intros; induction a; eauto; right;
+  destruct IHa1 as [[n1 Hn1] | [a1' Ha1']];
+  destruct IHa2 as [[n2 Hn2] | [a2' Ha2']];
+  subst; eexists; eauto.
 Qed.
 
 (*-- Check --*)

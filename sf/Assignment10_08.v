@@ -31,10 +31,41 @@ Require Export Assignment10_07.
     properties of [==>*]: that it is reflexive, transitive, and
     includes [==>]. *)
 
+Lemma my_multistep_congr_1:
+  forall t1 t1' t2,
+    t1 ==>* t1' ->
+    P t1 t2 ==>* P t1' t2.
+Proof.
+  intros.
+  induction H.
+  - apply multi_refl.
+  - apply multi_step with (P y t2).
+    + apply ST_Plus1. auto.
+    + auto.
+Qed.                              
+
 Theorem eval__multistep : forall t n,
   t || n -> t ==>* C n.
 Proof.
-  exact FILL_IN_HERE.
+  intros t.
+  induction t.
+  - intros.
+    inversion H; subst.
+    apply multi_refl.
+  - intros.
+    inversion H; subst.
+    assert (P t1 t2 ==>* P (C n1) t2).
+    { apply my_multistep_congr_1. apply IHt1. auto. }
+    apply IHt2 in H4.
+    assert (P (C n1) t2 ==>* P (C n1) (C n2)).
+    { apply multistep_congr_2; auto. constructor. }
+    eapply multi_trans.
+    { apply H0. }
+    eapply multi_trans.
+    { apply H1. }
+    eapply multi_step.
+    + constructor.
+    + apply multi_refl.
 Qed.
 
 (*-- Check --*)

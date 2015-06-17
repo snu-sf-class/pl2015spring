@@ -9,7 +9,16 @@ Lemma step__eval : forall t t' n,
      t || n.
 Proof.
   intros t t' n Hs. generalize dependent n.
-  exact FILL_IN_HERE.
+  induction Hs.
+  - intros.
+    inversion H.
+    constructor; constructor.
+  - intros.
+    inversion H; subst.
+    constructor; auto.
+  - intros.
+    inversion H0; subst.
+    constructor; auto.
 Qed.
 
 (*-- Check --*)

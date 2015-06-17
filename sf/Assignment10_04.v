@@ -8,7 +8,7 @@ Lemma test_multistep_3:
    ==>*
       P (C 0) (C 3).
 Proof.
-  exact FILL_IN_HERE.
+  apply multi_refl.
 Qed.
 
 (*-- Check --*)

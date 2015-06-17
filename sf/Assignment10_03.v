@@ -6,7 +6,7 @@ Require Export Assignment10_02.
 Lemma test_multistep_2:
   C 3 ==>* C 3.
 Proof.
-  exact FILL_IN_HERE.
+  apply multi_refl.
 Qed.
 
 (*-- Check --*)
