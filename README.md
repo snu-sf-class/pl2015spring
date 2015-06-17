@@ -10,6 +10,7 @@
 
 ## Announcements ##
 
+- Final at 2015/06/18 (Thu) 18:00-21:00. At Software Lab, 3rd floor, bldg 302.
 - [Document on assignments](Homework.md) is updated! Assignment 01 is issued (due: 2015/03/19).
     + TA will give you office hour 2015/03/16-2015/03/18. See [here](https://github.com/snu-sf/pl2015/issues/15).
 - Check the [GitHub repository status](https://github.com/snu-sf/pl2015/issues/14).
